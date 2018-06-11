@@ -6,6 +6,7 @@
 
 #' @name schedule
 #' @title schedule
-#' @description Daniel Egan's twitter posts
+#' @description Daniel Egan's twitter schedule
 #' @docType data
 "schedule"
+

@@ -9,6 +9,6 @@
 schedule
 }
 \description{
-Daniel Egan's twitter posts
+Daniel Egan's twitter schedule
 }
 \keyword{datasets}
