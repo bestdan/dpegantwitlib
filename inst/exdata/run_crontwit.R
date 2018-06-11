@@ -19,7 +19,7 @@ library(crontwit)
 library(dpegantwitlib)
 
 # Load paths
-creds_path    <- file.path("~","src","degan_creds.yaml")
+creds_path    <- file.path("~","ec2-user","src","degan_creds.yaml")
 
 twitter_creds <- yaml.load_file(creds_path)$twitter
 
