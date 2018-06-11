@@ -32,8 +32,8 @@ setup_twitter_oauth(consumer_key    = twitter_creds$consumer_key,
                     access_secret   = twitter_creds$access_token_secret)
 
 # Load schedule
-schedule <- dpegantwitlib::schedule
-tweet_db <- dpegantwitlib::tweet_db
+data("schedule", package = "dpegantwitlib")
+data("tweet_db", package = "dpegantwitlib")
 
 # Check schedule and post if necessary. 
 checkScheduleAndPost(schedule, tweet_db)
