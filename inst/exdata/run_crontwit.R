@@ -19,8 +19,9 @@ library(crontwit)
 library(dpegantwitlib)
 
 # Load paths
-creds_path    <- file.path("~","home","ec2-user","src","degan_creds.yaml")
 
+creds_path    <- file.path("~","home","ec2-user","src","degan_creds.yaml")
+print(getwd())
 twitter_creds <- yaml.load_file(creds_path)$twitter
 
 # Tell it to auto-cache the credentials
