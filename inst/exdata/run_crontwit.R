@@ -35,13 +35,14 @@ tweet_db <- dpegantwitlib::tweet_db
 # Check schedule and post if necessary. 
 res <- crontwit::checkScheduleAndPost(schedule, tweet_db)
 
+
+# Send a slack notification that you ran.
 bb_slack_creds <- yaml.load_file(creds_path)$bb_slack_crontwit 
 
 slackr::slackrSetup(username = bb_slack_creds$username,
                     channel= bb_slack_creds$channel,
                     incoming_webhook_url= bb_slack_creds$incoming_webhook_url,
-                    api_token = bb_slack_creds$api_token, 
-                    echo = TRUE)
+                    api_token = bb_slack_creds$api_token)
 if(is.null(res)){
   slackr::slackr_bot("I just ran. No content.")
 } else {
