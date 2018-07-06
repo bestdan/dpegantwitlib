@@ -10,8 +10,9 @@ ByteCompile: true
 Depends:
   R (>= 2.10)
 Suggests: 
-    knitr, 
-    markdown
+    knitr,
+    markdown,
+    testthat
 Imports:
     crontwit
 VignetteBuilder: knitr

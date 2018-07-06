@@ -17,6 +17,7 @@ buildSchedule <- function(){
                     data.frame(minute   = 05, 
                                hour     = 12, 
                                dow      = 1, 
+                               tz       = "EST",
                                category = "dpegan_blog_posts", 
                                id       = NA))
   
@@ -24,6 +25,7 @@ buildSchedule <- function(){
                     data.frame(minute   = 05, 
                                hour     = 12, 
                                dow      = 3, 
+                               tz       = "EST",
                                category = "dpegan_blog_posts", 
                                id       = NA))
   
@@ -31,6 +33,7 @@ buildSchedule <- function(){
                     data.frame(minute   = 05, 
                                hour     = 12, 
                                dow      = 5, 
+                               tz       = "EST",
                                category = "dpegan_blog_posts", 
                                id       = NA))
   
@@ -38,6 +41,7 @@ buildSchedule <- function(){
                     data.frame(minute   = 05, 
                                hour     = 08, 
                                dow      = 00, 
+                               tz       = "EST",
                                category = "befi_fails", 
                                id       = NA))
   
@@ -45,6 +49,7 @@ buildSchedule <- function(){
                     data.frame(minute   = 05, 
                                hour     = 08, 
                                dow      = 02, 
+                               tz       = "EST",
                                category = "betterment_posts", 
                                id       = NA))
   
@@ -52,6 +57,7 @@ buildSchedule <- function(){
                     data.frame(minute   = 05, 
                                hour     = 08, 
                                dow      = 04, 
+                               tz       = "EST",
                                category = "betterment_posts", 
                                id       = NA))
   
@@ -59,6 +65,7 @@ buildSchedule <- function(){
                     data.frame(minute   = 05, 
                                hour     = 16, 
                                dow      = 06, 
+                               tz       = "EST",
                                category = "fintwit_quotes", 
                                id       = NA))
   

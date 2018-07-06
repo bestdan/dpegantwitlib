@@ -4,7 +4,7 @@
 \name{schedule}
 \alias{schedule}
 \title{schedule}
-\format{An object of class \code{data.frame} with 7 rows and 5 columns.}
+\format{An object of class \code{data.frame} with 7 rows and 6 columns.}
 \usage{
 schedule
 }
