@@ -131,12 +131,14 @@ buildTweetDB <- function(){
                               category = "dpegan_blog_posts",  tweet_db = tweet_db)
 
 
-  tweet_db <- addNewTweetToDB(tweet_text = "A watched portfolio never grows.",
-                              category = "dpegan_blog_posts",  tweet_db = tweet_db)
+  
 
+  
   #-----
   # fintwit quotes
-
+  tweet_db <- addNewTweetToDB(tweet_text = "A watched portfolio never grows.",
+                              category = "fintwit_quotes",  tweet_db = tweet_db)
+  
   tweet_db <- addNewTweetToDB(tweet_text = "'No amount of alpha will save a bad retirement plan.'  -@choffstein",
                               category = "fintwit_quotes",  tweet_db = tweet_db)
 
