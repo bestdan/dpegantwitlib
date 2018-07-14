@@ -6,8 +6,12 @@ pacman::p_load(twitteR, yaml, devtools, slackr)
 
 if(!require(crontwit)){
   devtools::install_github("bestdan/crontwit")
-  devtools::install_github("bestdan/dpegantwitlib")
 }
+
+if(!require(dpegantwitlib)){
+  devtools::install_github("bestdan/dpegantwitlib")  
+}
+
 
 # Nightly rebuild
 if(as.numeric(format(Sys.time(), "%H")) == 1){
