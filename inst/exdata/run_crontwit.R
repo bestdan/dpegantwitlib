@@ -12,13 +12,8 @@ if(!require(dpegantwitlib)){
   devtools::install_github("bestdan/dpegantwitlib")  
 }
 
-
-# Nightly rebuild
-if(as.numeric(format(Sys.time(), "%H")) == 1){
-  devtools::install_github("bestdan/crontwit")
-  devtools::install_github("bestdan/dpegantwitlib")
-}
-
+library(crontwit)
+library(dpegantwitlib)
 
 # Load paths
 creds_path    <- file.path("src/degan_creds.yaml")
