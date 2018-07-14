@@ -17,7 +17,7 @@ if(as.numeric(format(Sys.time(), "%H")) == 1){
 
 
 # Load paths
-creds_path    <- file.path("~/src/degan_creds.yaml")
+creds_path    <- file.path("src/degan_creds.yaml")
 twitter_creds <- yaml.load_file(creds_path)$twitter
 
 # Tell it to auto-cache the credentials
