@@ -69,6 +69,14 @@ buildSchedule <- function(){
                                category = "fintwit_quotes", 
                                id       = NA))
   
+  schedule <- rbind(schedule, 
+                    data.frame(minute   = 05, 
+                               hour     = 15, 
+                               dow      = NA, 
+                               tz       = "EST",
+                               category = "fintwit_quotes", 
+                               id       = NA))
+  
   validateSchedule(schedule)
   return(schedule)
   
