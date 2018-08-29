@@ -24,14 +24,6 @@ buildSchedule <- function(){
   schedule <- rbind(schedule, 
                     data.frame(minute   = 05, 
                                hour     = 12, 
-                               dow      = 3, 
-                               tz       = "EST",
-                               category = "dpegan_blog_posts", 
-                               id       = NA))
-  
-  schedule <- rbind(schedule, 
-                    data.frame(minute   = 05, 
-                               hour     = 12, 
                                dow      = 5, 
                                tz       = "EST",
                                category = "dpegan_blog_posts", 
@@ -65,14 +57,6 @@ buildSchedule <- function(){
                     data.frame(minute   = 05, 
                                hour     = 16, 
                                dow      = 06, 
-                               tz       = "EST",
-                               category = "fintwit_quotes", 
-                               id       = NA))
-  
-  schedule <- rbind(schedule, 
-                    data.frame(minute   = 05, 
-                               hour     = 15, 
-                               dow      = NA, 
                                tz       = "EST",
                                category = "fintwit_quotes", 
                                id       = NA))
