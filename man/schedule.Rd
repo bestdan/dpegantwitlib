@@ -4,11 +4,6 @@
 \name{schedule}
 \alias{schedule}
 \title{schedule}
-\format{An object of class \code{data.frame} with 7 rows and 6 columns.}
-\usage{
-schedule
-}
 \description{
 Daniel Egan's twitter schedule
 }
-\keyword{datasets}
