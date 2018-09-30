@@ -4,6 +4,8 @@
 #' @importFrom crontwit addNewTweetToDB
 #' @return tweet_db
 #' @export
+#' @example
+#' res <- buildTweetDB()
 
 buildTweetDB <- function(){
   #-----
@@ -169,7 +171,7 @@ tweet_db <- addNewTweetToDB(tweet_text = "I thought my portfolio was diversified
                               https://www.dpegan.com/the-hidden-danger-in-pleasurable-ideas/",
                               category = "dpegan_blog_posts",  tweet_db = tweet_db)
 
-tweet_db <- addNewTweetToDB(tweet_text = "Do investors know how to maximize happiness?\n\n
+  tweet_db <- addNewTweetToDB(tweet_text = "Do investors know how to maximize happiness?\n\n
                                 https://www.dpegan.com/do-investors-know-what-will-make-them-happy/",
                               category = "dpegan_blog_posts",  tweet_db = tweet_db)
 
@@ -190,6 +192,7 @@ tweet_db <- addNewTweetToDB(tweet_text = "Do investors know how to maximize happ
   #                             category = "fintwit_quotes",  tweet_db = tweet_db)
 
   #-----
+  tweet_db$tweet_text <- paste0(tweet_db$tweet_text, "  \n #apbb")
 
   return(tweet_db)
 }
