@@ -8,9 +8,9 @@ if(!require(crontwit)){
   devtools::install_github("bestdan/crontwit")
 }
 
-if(!require(dpegantwitlib)){
+#if(!require(dpegantwitlib)){
   devtools::install_github("bestdan/dpegantwitlib")
-}
+#}
 
 library(crontwit)
 library(dpegantwitlib)
@@ -39,6 +39,14 @@ tweet_db <- dpegantwitlib::tweet_db
 
 # Check schedule and post if necessary.
 res <- crontwit::checkScheduleAndPost(schedule, tweet_db)
+# for debugging
+# Seems like crontwit::checkScheduleAndPost(schedule, tweet_db)
+# has a bug that needs fixing. Also, be wary of timezones. I'm apparently in EDT right now.
+schedule <- rbind(schedule,
+                  data.frame(
+                    minute = 47,
+                    hour = 15, dow=0, tz="EST", category = "befi_fails", id=NA
+                  ))
 #----------------
 
 

@@ -1,5 +1,5 @@
 Package: dpegantwitlib
-Version: 0.0.0.9005
+Version: 0.0.0.9007
 Title: My twitter post library
 Description: My twitter post library.
 Authors@R: person("Daniel", "Egan", email = "dp.egan@gmail.com", role = c("aut", "cre"))
