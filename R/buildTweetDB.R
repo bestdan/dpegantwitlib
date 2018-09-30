@@ -4,7 +4,7 @@
 #' @importFrom crontwit addNewTweetToDB
 #' @return tweet_db
 #' @export
-#' @example
+#' @examples
 #' res <- buildTweetDB()
 
 buildTweetDB <- function(){

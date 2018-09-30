@@ -12,3 +12,6 @@ tweet_db
 \description{
 Build the tweet_db object
 }
+\examples{
+res <- buildTweetDB()
+}
