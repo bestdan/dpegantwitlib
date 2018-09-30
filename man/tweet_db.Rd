@@ -4,11 +4,6 @@
 \name{tweet_db}
 \alias{tweet_db}
 \title{tweet_db}
-\format{An object of class \code{data.frame} with 29 rows and 4 columns.}
-\usage{
-tweet_db
-}
 \description{
 Daniel Egan's twitter posts
 }
-\keyword{datasets}

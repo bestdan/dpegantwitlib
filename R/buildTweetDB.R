@@ -50,6 +50,37 @@ buildTweetDB <- function(){
                               #BeFiFails",
                               category = "befi_fails",  tweet_db = tweet_db)
 
+  tweet_db <- addNewTweetToDB(tweet_text = "I'll diversify by using four funds (that track the same index).\n\n
+                              #BeFiFails",
+                              category = "befi_fails",  tweet_db = tweet_db)
+
+tweet_db <- addNewTweetToDB(tweet_text = "My portfolio isn't going up quick enough. I guess I should trade more.\n\n
+                              #BeFiFails",
+                              category = "befi_fails",  tweet_db = tweet_db)
+
+tweet_db <- addNewTweetToDB(tweet_text = "I can't believe this for-profit service is free!\n\n
+                              #BeFiFails",
+                            category = "befi_fails",  tweet_db = tweet_db)
+
+tweet_db <- addNewTweetToDB(tweet_text = "You can trust my advisor. He disclosed his conflicts of interest.\n\n
+                              #BeFiFails",
+                            category = "befi_fails",  tweet_db = tweet_db)
+
+tweet_db <- addNewTweetToDB(tweet_text = "Other people may be suffer from Dunning-Kruger, but I don't.\n\n
+                              #BeFiFails",
+                            category = "befi_fails",  tweet_db = tweet_db)
+
+tweet_db <- addNewTweetToDB(tweet_text = "He was so confident, he must be right.\n\n
+                              #BeFiFails",
+                            category = "befi_fails",  tweet_db = tweet_db)
+
+tweet_db <- addNewTweetToDB(tweet_text = "I've lost money on so many trades, I'm due for a big win.\n\n
+                              #BeFiFails",
+                            category = "befi_fails",  tweet_db = tweet_db)
+
+tweet_db <- addNewTweetToDB(tweet_text = "I thought my portfolio was diversified, but it's underperforming the market so I guess it's not.\n\n
+                              #BeFiFails",
+                            category = "befi_fails",  tweet_db = tweet_db)
 
   #-----
   # dpegan posts
@@ -130,17 +161,33 @@ buildTweetDB <- function(){
                               http://www.dpegan.com/why-i-read-science-fiction/",
                               category = "dpegan_blog_posts",  tweet_db = tweet_db)
 
+  tweet_db <- addNewTweetToDB(tweet_text = "The positive (unintended) effects of progressive tax rates:\n\n
+                              https://www.dpegan.com/the-positive-unintended-consequences-of-progressive-tax-rates/",
+                              category = "dpegan_blog_posts",  tweet_db = tweet_db)
 
-  
+  tweet_db <- addNewTweetToDB(tweet_text = "Beware ideas that make you feel good:\n\n
+                              https://www.dpegan.com/the-hidden-danger-in-pleasurable-ideas/",
+                              category = "dpegan_blog_posts",  tweet_db = tweet_db)
 
-  
+tweet_db <- addNewTweetToDB(tweet_text = "Do investors know how to maximize happiness?\n\n
+                                https://www.dpegan.com/do-investors-know-what-will-make-them-happy/",
+                              category = "dpegan_blog_posts",  tweet_db = tweet_db)
+
+
   #-----
   # fintwit quotes
-  tweet_db <- addNewTweetToDB(tweet_text = "A watched portfolio never grows.",
-                              category = "fintwit_quotes",  tweet_db = tweet_db)
-  
-  tweet_db <- addNewTweetToDB(tweet_text = "'No amount of alpha will save a bad retirement plan.'  -@choffstein",
-                              category = "fintwit_quotes",  tweet_db = tweet_db)
+  # Killed these until I have enough that it seems like it makes sense.
+  # tweet_db <- addNewTweetToDB(tweet_text = "A watched portfolio never grows. ",
+  #                             category = "fintwit_quotes",  tweet_db = tweet_db)
+  #
+  # tweet_db <- addNewTweetToDB(tweet_text = "'No amount of alpha will save a bad retirement plan.'  -@choffstein",
+  #                             category = "fintwit_quotes",  tweet_db = tweet_db)
+  #
+  # tweet_db <- addNewTweetToDB(tweet_text = "'The worst 10 years of any backtest are the next 10 years.'  -@michaelbatnick",
+  #                             category = "fintwit_quotes",  tweet_db = tweet_db)
+  #
+  # tweet_db <- addNewTweetToDB(tweet_text = "'No pain, no premium.'  -@choffstein",
+  #                             category = "fintwit_quotes",  tweet_db = tweet_db)
 
   #-----
 

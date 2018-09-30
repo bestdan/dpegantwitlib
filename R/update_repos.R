@@ -4,6 +4,10 @@ if(!require(devtools)){
   install.packages("devtools")
 }
 
-devtools::install_github("bestdan/crontwit")
-devtools::install_github("bestdan/dpegantwitlib")
+# Not currently functional.
+if(FALSE){
+  devtools::install_github("bestdan/crontwit")
+  devtools::install_github("bestdan/dpegantwitlib")
+}
+
 

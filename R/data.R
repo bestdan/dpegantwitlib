@@ -2,11 +2,11 @@
 #' @title tweet_db
 #' @description Daniel Egan's twitter posts
 #' @docType data
-"tweet_db"
+NULL
 
 #' @name schedule
 #' @title schedule
 #' @description Daniel Egan's twitter schedule
 #' @docType data
-"schedule"
+NULL
 
