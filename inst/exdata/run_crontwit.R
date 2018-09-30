@@ -51,7 +51,7 @@ slackr::slackrSetup(username = bb_slack_creds$username,
                     incoming_webhook_url= bb_slack_creds$incoming_webhook_url,
                     api_token = bb_slack_creds$api_token)
 if(is.null(res)){
-  slackr::slackr_bot("I just ran. No content.")
+  slackr::slackr_bot("I just ran. No content, yo.")
 } else {
   slackr::slackr_bot(paste:"I posted this content: ",
                      paste0(res, collapse = ", "))
