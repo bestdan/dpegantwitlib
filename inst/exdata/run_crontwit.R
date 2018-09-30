@@ -53,6 +53,7 @@ slackr::slackrSetup(username = bb_slack_creds$username,
 if(is.null(res)){
   slackr::slackr_bot("I just ran. No content, yo.")
 } else {
+  slackr::slackr_bot(paste:"I posted content.")
   slackr::slackr_bot(paste:"I posted this content: ",
                      paste0(res, collapse = ", "))
 }
